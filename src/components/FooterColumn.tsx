@@ -1,12 +1,17 @@
 import React from 'react'
 import cl from "./Footer.module.css";
 
+interface FooterColumnProps {
+    title: string;
+    items: [];
 
-const FooterColumn = ({ title, items }) => {
+}
+
+const FooterColumn = ({ title, items }: FooterColumnProps) => {
 
     return (
         <div className={cl.footer__column}>
-            <div href='#' className={cl.footer__title}>
+            <div className={cl.footer__title}>
                 {title}
             </div>
             {items.map((item) =>
