@@ -26,7 +26,7 @@ const Footer = () => {
                             </div>
                         </div>
                         <div className={cl.footer__items}>
-                            <div className={cl.footer__item_text} > <a href='#'>Для исполнителя</a></div >
+                            <div className={cl.footer__item_text}> <a href='#'>Для исполнителя</a></div >
                             <div className={cl.footer__row}>
                                 <a href='#'><img src={appleMarket} /></a>
                                 <a href='#'><img src={playMarket} /></a>
