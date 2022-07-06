@@ -17,28 +17,35 @@ const Footer = () => {
             <FooterColumn title='Исполнителю' items={[' Начать работу', 'Заказы', 'Условия и цены']} />
             <FooterColumn title='Компания' items={[' О проекте', 'Поддержка', 'Сообщество']} />
             <Stack className={cl.footer__column}>
-                <Typography sx={{fontSize:'20px'}} className={cl.footer__title}>Мобильные приложения</Typography>
+                <Typography
+                    sx={{
+                        fontSize: '20px',
+                        fontWeight: '500',
+                    }}
+                    className={cl.footer__title}>
+                    Мобильные приложения
+                </Typography>
                 <Stack direction='row' className={cl.footer__row}>
                     <Stack className={cl.footer__items}>
                         <div className={cl.footer__item_text}><a href='#'>Для заказчика</a></div>
                         <Stack direction='row' className={cl.footer__row}>
-                            <a href='#'><img src={appleMarket} /></a>
-                            <a href='#'><img src={playMarket} /></a>
+                            <Typography><a href='#'><img src={appleMarket} /></a></Typography>
+                            <Typography><a href='#'><img src={playMarket} /></a></Typography>
                         </Stack>
                     </Stack>
                     <Stack className={cl.footer__items}>
                         <div className={cl.footer__item_text}> <a href='#'>Для исполнителя</a></div >
                         <Stack direction='row' className={cl.footer__row}>
-                            <a href='#'><img src={appleMarket} /></a>
-                            <a href='#'><img src={playMarket} /></a>
+                            <Typography><a href='#'><img src={appleMarket} /></a></Typography>
+                            <Typography><a href='#'><img src={playMarket} /></a></Typography>
                         </Stack>
                     </Stack>
                 </Stack>
             </Stack>
             <Stack className={cl.footer__column + ' ' + cl.img_block}>
-                <a href='#'><img src={logo} /></a>
-                <a href='#'><img src={vk} /></a>
-                <a href='#'><img src={telegram} /></a>
+                <Typography><a href='#'><img src={logo} /></a></Typography>
+                <Typography><a href='#'><img src={vk} /></a></Typography>
+                <Typography><a href='#'><img src={telegram} /></a></Typography>
             </Stack>
         </Stack >
 

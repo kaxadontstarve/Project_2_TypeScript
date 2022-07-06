@@ -12,13 +12,15 @@ const FooterColumn = ({ title, items }: FooterColumnProps) => {
 
     return (
         <Stack className={cl.footer__column}>
-            <Typography sx={{fontSize:'20px', fontWeight: '500'}} className={cl.footer__title}>
+            <Typography sx={{ fontSize: '20px', fontWeight: '500' }} className={cl.footer__title}>
                 {title}
             </Typography>
             {items.map((item) =>
-                <a href='#' className={cl.footer__text}>
-                    {item}
-                </a>
+                <Typography>
+                    <a href='#' className={cl.footer__text}>
+                        {item}
+                    </a>
+                </Typography>
             )}
         </Stack>
     )
