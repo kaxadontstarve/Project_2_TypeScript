@@ -5,7 +5,7 @@
     white-space: nowrap;
     text-decoration: none;
     color: rgba(255, 255, 255, 0.8);
-    font-family: 'Roboto', sans-serif;
+
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -14,9 +14,9 @@
 .title {
     text-decoration: none;
     color: rgb(255, 255, 255);
-    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
+    font-size: 20px;
 
 }
 
