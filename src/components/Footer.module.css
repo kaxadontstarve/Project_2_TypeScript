@@ -5,20 +5,12 @@
     white-space: nowrap;
     text-decoration: none;
     color: rgba(255, 255, 255, 0.8);
-
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
 }
 
-.title {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-
-}
+.title {}
 
 
 .footer {
@@ -37,7 +29,11 @@
 
 .footer__title {
     composes: title;
-
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
     padding: 0px 0px 25px 0px;
 }
 

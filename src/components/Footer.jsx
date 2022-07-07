@@ -17,13 +17,10 @@ const Footer = () => {
             <FooterColumn title='Исполнителю' items={[' Начать работу', 'Заказы', 'Условия и цены']} />
             <FooterColumn title='Компания' items={[' О проекте', 'Поддержка', 'Сообщество']} />
             <Stack className={cl.footer__column}>
-                <Typography
-                    sx={{
-                        fontSize: '20px',
-                        fontWeight: '500',
-                    }}
-                    className={cl.footer__title}>
-                    Мобильные приложения
+                <Typography>
+                    <div className={cl.footer__title}>
+                        Мобильные приложения
+                    </div>
                 </Typography>
                 <Stack direction='row' className={cl.footer__row}>
                     <Stack className={cl.footer__items}>
