@@ -10,9 +10,12 @@
     font-size: 16px;
 }
 
-.title {}
+.title {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-style: normal;
 
-
+}
 .footer {
     display: flex;
     width: 1440px;
@@ -22,18 +25,12 @@
 }
 
 .footer__column {
-    display: flex;
-    flex-direction: column;
+
     margin: 12px 120px 60px 0px;
 }
 
 .footer__title {
     composes: title;
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
     padding: 0px 0px 25px 0px;
 }
 
@@ -71,6 +68,3 @@
     margin: 0px 0px 32.96px 0px;
 }
 
-.footer__row {
-    display: flex;
-}
