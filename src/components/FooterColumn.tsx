@@ -12,7 +12,7 @@ const FooterColumn = ({ title, items }: FooterColumnProps) => {
 
     return (
         <Stack className={cl.footer__column}>
-            <Typography sx={{ fontSize: '20px', fontWeight: '500' }} className={cl.footer__title}>
+            <Typography variant='h6' className={cl.footer__title}>
                 {title}
             </Typography>
             {items.map((item) =>
