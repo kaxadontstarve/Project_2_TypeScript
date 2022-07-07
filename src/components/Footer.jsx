@@ -1,6 +1,6 @@
 import { Stack, Typography } from '@mui/material';
 import React from 'react'
-import cl from "./Footer.module.css";//почемуто когда я называю "ftrsty.css", "Footer.sty.css", "Footer.ftrsty.css" стили не подключаються
+import cl from "./Footer.module.css";
 import FooterColumn from './FooterColumn';
 import logo from "./imgs/Frame 24 3.png";
 import telegram from "./imgs/Vector (1).svg";
@@ -22,14 +22,14 @@ const Footer = () => {
                 </Typography>
                 <Stack direction='row' className={cl.footer__row}>
                     <Stack className={cl.footer__items}>
-                        <div className={cl.footer__item_text}><a href='#'>Для заказчика</a></div>
+                        <div className={cl.footer__item_text}>Для заказчика</div>
                         <Stack direction='row' className={cl.footer__row}>
                             <Typography><a href='#'><img src={appleMarket} /></a></Typography>
                             <Typography><a href='#'><img src={playMarket} /></a></Typography>
                         </Stack>
                     </Stack>
                     <Stack className={cl.footer__items}>
-                        <div className={cl.footer__item_text}> <a href='#'>Для исполнителя</a></div >
+                        <div className={cl.footer__item_text}>Для исполнителя</div >
                         <Stack direction='row' className={cl.footer__row}>
                             <Typography><a href='#'><img src={appleMarket} /></a></Typography>
                             <Typography><a href='#'><img src={playMarket} /></a></Typography>
