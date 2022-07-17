@@ -1,4 +1,4 @@
-import { Button, InputBase, Stack, Typography } from "@mui/material";
+import { Stack, Typography } from "@mui/material";
 import React from "react";
 
 import noNameIcon from "./imgs/no-name-icon.png";
